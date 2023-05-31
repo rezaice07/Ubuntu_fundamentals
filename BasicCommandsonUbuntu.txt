@@ -1,0 +1,35 @@
+Basic Commands on Ubuntu
+---------------------------------
+Shutdwon 
+	shutdown now
+	
+Restart 
+	shutdown -r now
+	reboot
+	
+Restart Newtwork after Changing the configurations
+	systemctl restart NetworkManager
+		
+Enabling root user on ubuntu
+	su
+		
+Enabling SSH Server
+-------------------------------------
+update package
+	sudo apt update
+	
+install ssh server	
+	sudo apt-get install openssh-server
+
+Check ssh run or not
+	sudo systemctl status ssh
+
+allow ssh port to firewall
+	sudo ufw allow ssh
+	
+Now try with cmd or any other prompt
+	ssh vboxuser@192.168.56.101
+	
+Enjoy....!
+
+	
