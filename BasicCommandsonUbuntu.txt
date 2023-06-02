@@ -30,6 +30,12 @@ allow ssh port to firewall
 Now try with cmd or any other prompt
 	ssh vboxuser@192.168.56.101
 	
+Ip Address Checking
+	ip addr
+
+To check ip tables
+	iptables -nL
+	
 Enjoy....!
 
 	
